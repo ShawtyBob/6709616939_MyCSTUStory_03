@@ -326,3 +326,46 @@ span{
         padding-right: 69px;
     }
 }
+/******* responsive for Phone ********/
+/******* my future and my journal  *******/
+@media (max-width: 360px){
+    .grid-future img , .grid-journey img{
+        position: relative;
+        width: 250px;
+        top: 25px;
+        left: 15%;
+    }
+    .grid-journey,.grid-future{
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    .grid-future fieldset,.grid-journey fieldset{
+        height: fit-content;
+        
+    }
+    #a2-hp h2{
+        font-size: larger;
+        border-radius: 0;
+        padding-left: 95px;
+        padding-right: 86px;
+    }
+    #a2-jn h2{
+        font-size: larger;
+        border-radius: 0;
+        padding-left: 96px;
+        padding-right: 84px;
+    }
+    #a2 h2{
+        font-size: larger;
+        border-radius: 0;
+        padding-left: 99px;
+        padding-right: 97px;
+    }
+    #a1 h2{
+        font-size: larger;
+        border-radius: 0;
+        padding-left: 95px;
+        padding-right: 100px;
+    }
+}
+
