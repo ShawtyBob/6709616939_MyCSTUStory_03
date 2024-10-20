@@ -281,8 +281,8 @@ span{
     color: #f82b2b;
 }
 /******* responsive for tablet ********/
-/******* my future and my journal  *******/
 @media (max-width: 768px){
+    /******* my future and my journal  *******/
     .grid-future img , .grid-journey img{
         position: relative;
         width: 300px;
@@ -325,10 +325,39 @@ span{
         padding-left: 62px;
         padding-right: 69px;
     }
+    /********* Home page **********/
+    .grid{
+        display: flex; 
+        flex-direction: column;
+        clear: both;
+    }
+    video{
+        width: 400px;
+        clear: both;
+    }
+    .img-overlay img {
+        left: 200px;
+        top: 1380px;
+        width: 350px;
+    }
+    .fieldset-3-row fieldset{
+        clear: both;
+        height: fit-content;
+    }
+    .fieldset-3-row fieldset p{
+        position: relative;
+    }
+    #taytay {
+        position: absolute;
+        left: 90px;
+    }
+    #ldr {
+        left: 372px;
+    }
 }
 /******* responsive for Phone ********/
-/******* my future and my journal  *******/
 @media (max-width: 360px){
+    /******* my future and my journal  *******/
     .grid-future img , .grid-journey img{
         position: relative;
         width: 250px;
