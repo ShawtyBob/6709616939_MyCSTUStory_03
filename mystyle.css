@@ -218,20 +218,30 @@ fieldset{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 70px;
+    padding: 50px;
 }
 .grid-future img , .grid-journey img {
-    width: 550px;
-    margin-left: 30%;
+    width: 400px;
+    margin-left: 5%;
 }
 .grid-future p , .grid-journey p {
     margin: 15px;
+    margin-top: 0px;
     padding: 10px;
     line-height: 2;
 }
+.grid-future h2,.grid-journey h2{
+    margin: 0;
+}
 .grid-future fieldset , .grid-journey fieldset {
-    width: 180%;
-    height: 500px;
+    width: 190%;
+    height: 620px;
+    float: left;
+}
+.grid-journey fieldset{
+    width: 190%;
+    height: 600px;
+    float: left;
 }
 #a1 {
     float: left;
