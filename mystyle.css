@@ -234,20 +234,35 @@ fieldset{
     height: 500px;
 }
 #a1 {
-    position:absolute ;
-    top: 35px;
-    right: 180px;
+    float: left;
 }
 #a1 h2{
-    font-size: small;
+    font-size: larger;
+    border-radius: 0;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-#a2 {
-    position:absolute ;
-    top: 35px;
-    right: 50px;
+#a2 ,#a2-hp,#a2-jn{
+    float: left;
+    clear: both;
+}
+#a2-hp h2{
+    font-size: larger;
+    border-radius: 0;
+    padding-left: 100px;
+    padding-right: 85px;
+}
+#a2-jn h2{
+    font-size: larger;
+    border-radius: 0;
+    padding-left: 100px;
+    padding-right: 85px;
 }
 #a2 h2{
-    font-size: small;
+    font-size: larger;
+    border-radius: 0;
+    padding-left: 100px;
+    padding-right: 102px;
 }
 a{
     color: rgb(255, 62, 191);
