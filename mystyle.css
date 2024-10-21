@@ -396,5 +396,69 @@ span{
         padding-left: 95px;
         padding-right: 100px;
     }
-}
+    /*******Homepage********/
+    video{
+        width: 260px;
+    }
+    .img-overlay img{
+        top: 1800px;
+        left: 60px;
+        width: 250px;
+    }
+    #Lana{
+        margin-left: 15px;
+    }
+    #rec{
+        display: none;
+    }
+    #taytay{
+        position: relative;
+        width: 130px;
+        top: 10px;
+        left: 10px;
+    }
+    #ldr{
+        position: relative;
+        width: 130px;
+        left: 25px;
+        top: 10px;
+    }
+    .fieldset-1-row h2,.fieldset-2-row h2,.fieldset-3-row h2{
+        font-size: small;
+    }
+    .fieldset-1-row{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .fieldset-1-row fieldset p{
+        position: static;
+        margin-top:-15px ;
+        margin-bottom: 1px;
+    }
+    .fieldset-1-row fieldset{
+        flex: 0 1 300px; 
+        margin: 10px;
+        padding: 20px;
+        height: fit-content;
+    }
+    .fieldset-2-row fieldset{
+        flex: 0 1 300px; 
+        margin: 10px;
+        padding: 20px;
+    }
+    .fieldset-2-row{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
 
+    }
+    .fieldset-2-row fieldset p{
+        position: static;
+        margin-top: -15px;
+        margin-bottom: 1px;
+    }
+   .fieldset-3-row fieldset p{
+    margin-bottom: -10px;
+   }
+}
